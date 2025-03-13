@@ -1,70 +1,72 @@
-🌍 Country Explorer
+# 🌍 Country Explorer
 
 A Next.js application that allows users to search and filter countries by region. Clicking on a country provides detailed information about it. The app follows the REST Countries API and is fully responsive.
 
-🚀 Features
+## 🚀 Features
 
-🌎 Search: Find countries by name
+- 🌎 **Search**: Find countries by name
+- 🔍 **Filter**: Sort countries by region
+- 📌 **Details Page**: View population, capital, and other details
+- 📱 **Responsive Design**: Optimized for all devices
 
-🔍 Filter: Sort countries by region
+## 📸 Screenshots
 
-📌 Details Page: View population, capital, and other details
-
-📱 Responsive Design: Optimized for all devices
-
-📸 Screenshots
-
-Home Page
+### Home Page
 
 
 
-Country Details Page
+### Country Details Page
 
 
 
-⚡ Tech Stack
+## ⚡ Tech Stack
 
-Next.js 14 – SSR, SSG & API routing
+- **Next.js 14** – SSR, SSG & API routing
+- **TypeScript** – Static typing
+- **Tailwind CSS** – Responsive styling
+- **REST Countries API** – Country data
+- **Vercel** – Deployment
 
-TypeScript – Static typing
+## 🛠 Installation
 
-Tailwind CSS – Responsive styling
+1. Clone the repository:
 
-REST Countries API – Country data
+   ```sh
+   git clone https://github.com/your-username/country-explorer.git
+   cd country-explorer
+   ```
 
-Vercel – Deployment
+2. Install dependencies:
 
-🛠 Installation
+   ```sh
+   npm install  # or yarn install
+   ```
 
-Clone the repository:
+3. Run the development server:
 
-git clone https://github.com/your-username/country-explorer.git
-cd country-explorer
+   ```sh
+   npm run dev  # or yarn dev
+   ```
 
-Install dependencies:
+4. Open `http://localhost:3000` in your browser.
 
-npm install  # or yarn install
+## 🔧 Deployment
 
-Run the development server:
+To deploy the app on **Vercel**, run:
 
-npm run dev  # or yarn dev
-
-Open http://localhost:3000 in your browser.
-
-🔧 Deployment
-
-To deploy the app on Vercel, run:
-
+```sh
 vercel
+```
 
 Follow the setup instructions, and your project will be live!
 
-📜 API Reference
+## 📜 API Reference
 
-This project uses the REST Countries API to fetch country data.
+This project uses the [REST Countries API](https://restcountries.com/) to fetch country data.
 
-📂 Folder Structure
+## 📂 Folder Structure
 
+```
 📦 country-explorer
 ├── 📁 public        # Static assets
 ├── 📁 src
@@ -74,16 +76,16 @@ This project uses the REST Countries API to fetch country data.
 │   ├── 📁 lib         # API fetching functions
 ├── 📄 README.md
 ├── 📄 package.json
+```
 
-🏗 Future Improvements
+## 🏗 Future Improvements
 
-🌐 Multi-language support
+- 🌐 **Multi-language support**
 
-
-🙌 Contributing
+## 🙌 Contributing
 
 Contributions are welcome! Feel free to fork and submit a PR.
 
-📝 License
+## 📝 License
 
-This project is MIT Licensed.
+This project is **MIT Licensed**.
