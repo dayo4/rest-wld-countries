@@ -21,7 +21,7 @@ A Next.js application that allows users to search and filter countries by region
 
 ## ⚡ Tech Stack
 
-- **Next.js 14** – SSR, SSG & API routing
+- **Next.js 15** – SSR, SSG & API routing
 - **TypeScript** – Static typing
 - **Tailwind CSS** – Responsive styling
 - **REST Countries API** – Country data
@@ -32,8 +32,8 @@ A Next.js application that allows users to search and filter countries by region
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/country-explorer.git
-   cd country-explorer
+   git clone https://github.com/dayo4/rest-wld-countries
+   cd rest-wld-countries
    ```
 
 2. Install dependencies:
